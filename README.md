@@ -11,7 +11,7 @@ Their data resides in S3, in a directory of JSON logs on user activity on the ap
 As their data engineer, you are tasked with building an ETL pipeline that extracts their data from S3, processes it using Spark, and loads the data back into S3 as a set of dimensional tables.
 The `etl.py` script executes the following:
 
-* Create a Spark Session using the Apache Hadoop Amazon Web Services Support module.
+* Create a Spark Session using the Apache Hadoop Amazon Web Services Module.
 * Ingest Log and Song data files from desired location. (configurable by dl.cfg)
 * Clean and Process the data:
   * Add unique identifiers to Fact & Dimension tables
@@ -158,4 +158,14 @@ This is just an experiment to get familiarized with AWS SDK for Python.
 ```
 cd src/
 python -m etl.py # Entry point to kick-off a series of processes from creating Spark Session to write the modelled data to a S3 bucket.
+```
+
+#### Check results
+In order to be able to run this script, you will need a Spark environment setup.
+Unforunately, this is out of scope of this exercise. However, Udacity students can run it on the workspace environment.
+```
+jupyter notebook  # launch jupyter notebook app
+
+# The notebook interface will appear in a new browser window or tab.
+# Navigate to src/validation.ipynb and run sql queries against the datalake
 ```
