@@ -36,6 +36,7 @@ Data-Lakes-with-Spark
 └───src                   # Source code
 |   |  etl.py             # ETL script
 |   |  dl.cfg             # Configuration file
+|   |  validation.ipynb   # Jupyter Notebook to validate data
 ```
 
 ### Requirements for running locally
