@@ -148,7 +148,7 @@ AWS_ACCESS_KEY_ID = <ENTER AWS ACCESS KEY>   # paste your user Access Key
 AWS_SECRET_ACCESS_KEY = <ENTER AWS SECRET KEY>  # paste your user Secret Key
 REGION = <ENTER THE AWS REGION> # paste the AWS Region to create resources
 OUTPUT_BUCKET = <ENTER THE OUTPUT BUCKET> # paste the AWS Bucket name to be created
-INPUT_DATA = <ENTER THE INPUT DATA LOCATION> # paste the data location (for this exercise it is already set to read the data/ directory) 
+INPUT_DATA = <ENTER THE INPUT DATA LOCATION> # paste the data location (for this exercise it is already set to read the data/ directory)
 ```
 <b>REMEMBER:</b> Never share your <b>AWS ACCESS KEY & SECRET KEY</b> on scripts.
 
