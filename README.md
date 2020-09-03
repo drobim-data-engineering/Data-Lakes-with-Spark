@@ -162,8 +162,8 @@ python -m etl.py # Entry point to kick-off a series of processes from creating S
 ```
 
 #### Check results
-In order to be able to run this script, you will need a Spark environment setup.
-Unforunately, this is out of scope of this exercise. However, Udacity students can run it on the workspace environment.
+In order to be able to run this script, you need a Spark environment set up.
+Unfortunately, this is out of scope of this exercise. However, Udacity students can run it on the workspace environment.
 ```
 jupyter notebook  # launch jupyter notebook app
 
